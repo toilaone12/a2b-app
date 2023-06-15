@@ -2,6 +2,7 @@
   "expo": {
     "name": "a2b-app",
     "slug": "a2b-app",
+    "expoClientId": "187142393375-c2ai5ek3ap50qat3i710ucc9mirv4j2b.apps.googleusercontent.com",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.a2bapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "a2bapp://"
   }
 }
